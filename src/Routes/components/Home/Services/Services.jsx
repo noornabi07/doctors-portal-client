@@ -4,12 +4,11 @@ import TabButton from '../../TabPanel/TabPanel';
 
 const Services = () => {
     return (
-        <div className='my-20 px-20'>
+        <div className='my-20 md:px-20'>
             <div className='flex items-center'>
                 <div className='w-1/2'>
                     <img className='w-[500px]' src={maindoctor} alt="" />
                 </div>
-
 
                 {/* right section */}
                 <div className='w-1/2'>
