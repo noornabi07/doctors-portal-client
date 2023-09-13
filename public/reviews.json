@@ -1,0 +1,42 @@
+[
+    {
+      "_id": 1,
+      "img": "https://i.ibb.co/mDhWZ2q/member1.jpg",
+      "name": "Hasim Amal",
+      "title": "Computer Engineer",
+      "reviews": "A computer engineer is a highly skilled professional who specializes in designing, developing, and maintaining computer systems and their components.",
+      "rating": 5
+    },
+    {
+      "_id": 2,
+      "img": "https://i.ibb.co/6FBQDjq/member2.jpg",
+      "name": "Khademul Akbar",
+      "title": "Electrical Engineer",
+      "reviews": "Electrical engineers are essential professionals who work with electrical systems, devices, and technology to design, develop, and maintain. ",
+      "rating": 5
+    },
+    {
+      "_id": 3,
+      "img": "https://i.ibb.co/PZBnGJt/member4.jpg",
+      "name": "Reshmi Hasila",
+      "title": "Chef Instructors",
+      "reviews": "A chef instructor, also known as a culinary instructor or culinary educator, is a professional chef with a passion for teaching and sharing their culinary expertise.",
+      "rating": 4
+    },
+    {
+      "_id": 4,
+      "img": "https://i.ibb.co/KjFcZD2/member3.jpg",
+      "name": "Dr Yunush khan",
+      "title": "Food Consultation",
+      "reviews": "Food consultation, often referred to as culinary consulting or food service consulting, is a specialized service provided by professionals with expertise in the culinary industry.",
+      "rating": 3.5
+    },
+    {
+      "_id": 5,
+      "img": "https://i.ibb.co/rpn0vfY/member5.jpg",
+      "name": "Premmoy Mukharjee",
+      "title": "Professor Teacher",
+      "reviews": "A professor, often referred to as a university professor or simply a teacher in the context of higher education, is an esteemed and highly educated.",
+      "rating": 4
+    }
+  ]
