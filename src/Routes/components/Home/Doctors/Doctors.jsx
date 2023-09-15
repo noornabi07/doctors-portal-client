@@ -4,21 +4,22 @@ import DoctorsCard from './DoctorsCard';
 
 const Doctors = () => {
     const [doctors, setDoctors] = useState([]);
-    useEffect( () =>{
+    useEffect(() => {
         fetch('doctors.json')
-        .then(res => res.json())
-        .then(data => setDoctors(data));
+            .then(res => res.json())
+            .then(data => setDoctors(data));
     }, [])
     return (
-        <div>
+        <div className='md:px-20'>
             <div className='w-3/4 mx-auto mt-32 text-center'>
-                <SectionTitle heading="Our Expert Doctors" paragraph="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo."></SectionTitle>
+                <SectionTitle heading="Our Expert Doctors" paragraph="
+Doctors play a crucial role in our society, as they are responsible for the maintenance and restoration of our health. Their work is demanding, often requiring years of rigorous education and training, and it carries a significant burden of responsibility."></SectionTitle>
             </div>
             {/* doctors card */}
             <div className='grid grid-cols-3 gap-8 mt-20'>
-               {
-                doctors.map(doctor => <DoctorsCard key={doctor.id} doctor={doctor}></DoctorsCard>)
-               }
+                {
+                    doctors.map(doctor => <DoctorsCard key={doctor.id} doctor={doctor}></DoctorsCard>)
+                }
             </div>
         </div>
     );

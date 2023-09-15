@@ -19,15 +19,15 @@ const DoctorsCard = ({ doctor }) => {
                     <p className='text-slate-500 mb-2'>{title}</p>
                     <Rating style={{ maxWidth: 100, }} value={rating} readOnly />
                     <div className="divider"></div>
-                    <div className='flex items-center gap-8 text-slate-500'>
+                    <div className='flex items-center gap-4 text-slate-500'>
                         <HiOutlineLocationMarker className='text-2xl'></HiOutlineLocationMarker>
                         <h3>{location}</h3>
                     </div>
-                    <div className='flex items-center gap-8 my-3 text-slate-500'>
+                    <div className='flex items-center gap-4 my-3 text-slate-500'>
                         <MdOutlineEventAvailable className='text-2xl'></MdOutlineEventAvailable>
                         <h3>{available}</h3>
                     </div>
-                    <div className='flex items-center gap-8 text-slate-500'>
+                    <div className='flex items-center gap-4 text-slate-500'>
                         <BiDollarCircle className='text-2xl'></BiDollarCircle>
                         <h3>${visit}</h3>
                     </div>

@@ -19,7 +19,7 @@ const Reviews = () => {
     }, [])
 
     return (
-        <div>
+        <div className='md:px-20'>
             <div className='w-3/4 mx-auto my-10 mt-32 text-center'>
                 <SectionTitle heading="What Our Patients Says" paragraph="Non-permitted PHI disclosures, including telling stories of patients that contain identifiable information, can be a serious HIPAA violation. These violations can result in serious consequences for both the employee who committed."></SectionTitle>
             </div>
