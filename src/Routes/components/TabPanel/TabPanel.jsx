@@ -37,7 +37,7 @@ const TabButton = () => {
 
                         <p className='mt-3'>Integration of telehealth services, allowing patients to consult with doctors remotely. This can be especially valuable for non-urgent medical issues, follow-up visits, or when physical distance is a barrier to in-person care.</p>
 
-                        <button class="btn mt-5 btn-outline btn-success">More Details</button>
+                        <button class="btn mt-5 btn-outline btn-warning">More Details</button>
                     </div>
                 </TabPanel>
                 <TabPanel>
@@ -48,7 +48,7 @@ const TabButton = () => {
 
                         <p className='mt-3'>Integration of telehealth services, allowing patients to consult with doctors remotely. This can be especially valuable for non-urgent medical issues, follow-up visits, or when physical distance is a barrier to in-person care.</p>
 
-                        <button class="btn mt-5 btn-outline btn-success">More Details</button>
+                        <button class="btn mt-5 btn-outline btn-warning">More Details</button>
                     </div>
                 </TabPanel>
             </Tabs>
