@@ -5,7 +5,7 @@ import { BsFillTelephoneForwardFill } from 'react-icons/Bs';
 
 const Contact = () => {
     return (
-        <div className='grid grid-cols-3 gap-5 md:px-20'>
+        <div className='grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-5 md:px-20 px-3'>
             <div className='bg-emerald-900 text-white p-10 flex items-center gap-8 rounded-lg'>
                 <div className='text-3xl font-semibold'>
                     <LuTimer></LuTimer>

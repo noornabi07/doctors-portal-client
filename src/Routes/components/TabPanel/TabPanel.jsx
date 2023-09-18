@@ -10,7 +10,7 @@ const TabButton = () => {
     return (
         <div>
             <Tabs>
-                <div className='text-center mt-8 mb-5 text-orange-400 font-semibold'>
+                <div className='text-center text-xs md:text-lg mt-8 mb-5 text-orange-400 font-semibold'>
                     <TabList>
                         <Tab>Cavity Protection</Tab>
                         <Tab>Cosmetic Dentisty</Tab>

@@ -4,8 +4,8 @@ import logo from '../../../../assets/logo/footer-logo.png'
 const Footer = () => {
     return (
         <>
-            <footer className=" p-10 text-base-content bg-base-200  mt-20">
-                <div className='footer justify-around'>
+            <footer className="md:p-10 pt-10  text-base-content bg-base-200 mt-8  md:mt-20">
+                <div className='footer justify-center md:justify-around'>
                     <aside className='-mt-4'>
                         <img src={logo} alt="" />
                         <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
@@ -43,7 +43,7 @@ const Footer = () => {
                     </nav>
                 </div>
                 <div className="divider"></div>
-                <p className='text-center'>Copyright © 2023 - All right reserved by Noornabi Islam</p>
+                <p className='text-center md:text-lg text-sm md:mb-0 mb-3'>Copyright © 2023 - All right reserved by Noornabi Islam</p>
             </footer>
             
         </>

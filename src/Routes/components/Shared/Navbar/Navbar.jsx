@@ -45,7 +45,7 @@ const Navbar = () => {
                         {navOptions}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end hidden md:block">
                      <div className="avatar">
                             <div className="w-12">
                                 {user && <img src={user?.photoURL} />}
